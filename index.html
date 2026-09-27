@@ -17,23 +17,48 @@
     <!-- Main Container -->
     <div class="max-w-2xl mx-auto">
         
-        <!-- Match Info Card -->
-        <div class="bg-gradient-to-r from-emerald-600 to-teal-700 text-white rounded-2xl shadow-xl p-6 md:p-8 mb-8 text-center">
-            <h1 class="text-2xl md:text-3xl font-bold mb-2">EPF Admin 3rd ম্যাচ আপডেট</h1>
-            <p class="text-emerald-100 text-sm md:text-base mb-6">খেলার লাইভ উপস্থিতি ও মতামত তালিকা</p>
+        <!-- Match Header Info Card -->
+        <div class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white rounded-2xl shadow-xl p-6 md:p-8 mb-6">
+            <span class="text-xs uppercase tracking-wider bg-white/20 px-3 py-1 rounded-full font-semibold">EPF Admin 3rd • Colleagues Football</span>
+            <h1 class="text-2xl md:text-3xl font-bold mt-3 mb-1">বুধবারের খেলা</h1>
+            <p class="text-blue-100 text-sm mb-4">খেলোয়াড়দের ব্যক্তিগতভাবে পাওয়া মতামত এক জায়গায়।</p>
             
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 bg-white/10 backdrop-blur-md p-4 rounded-xl text-center text-sm">
+            <div class="inline-flex items-center gap-2 bg-white/15 backdrop-blur-md px-4 py-2 rounded-xl text-sm font-medium">
+                <span>📅</span>
+                <span>৩০ সেপ্টেম্বর ২০২৬ • বিকাল ৫:১৫</span>
+            </div>
+        </div>
+
+        <!-- Summary Counter Cards -->
+        <div class="grid grid-cols-3 gap-3 mb-6">
+            <div class="bg-white rounded-2xl shadow-sm border border-slate-100 p-4 text-center">
+                <span class="block text-2xl md:text-3xl font-bold text-slate-800">23</span>
+                <span class="text-xs text-slate-500 font-medium">মোট খেলোয়াড়</span>
+            </div>
+            <div class="bg-white rounded-2xl shadow-sm border border-slate-100 p-4 text-center">
+                <span class="block text-2xl md:text-3xl font-bold text-emerald-600">0</span>
+                <span class="text-xs text-slate-500 font-medium">খেলবেন</span>
+            </div>
+            <div class="bg-white rounded-2xl shadow-sm border border-slate-100 p-4 text-center">
+                <span class="block text-2xl md:text-3xl font-bold text-rose-600">0</span>
+                <span class="text-xs text-slate-500 font-medium">খেলবেন না</span>
+            </div>
+        </div>
+
+        <!-- Match Details Card -->
+        <div class="bg-white rounded-2xl shadow-md border border-slate-100 p-6 mb-6">
+            <div class="flex items-center gap-2 mb-4 pb-3 border-b border-slate-100">
+                <span class="text-xl">📍</span>
+                <h2 class="text-lg font-bold text-slate-800">খেলার বিস্তারিত</h2>
+            </div>
+            <div class="space-y-3 text-sm">
                 <div>
-                    <span class="block text-emerald-200">তারিখ</span>
-                    <span class="font-bold">৩০ সেপ্টেম্বর ২০২৬</span>
+                    <span class="text-slate-400 block text-xs">খেলার স্থান</span>
+                    <span class="font-semibold text-slate-700">টেক্সটাইল কলোনী মাঠ</span>
                 </div>
                 <div>
-                    <span class="block text-emerald-200">সময়</span>
-                    <span class="font-bold">বিকাল ৫:১৫ ঘটিকায়</span>
-                </div>
-                <div>
-                    <span class="block text-emerald-200">স্থান</span>
-                    <span class="font-bold">টেক্সটাইল কলোনী মাঠ</span>
+                    <span class="text-slate-400 block text-xs">তারিখ ও সময়</span>
+                    <span class="font-semibold text-slate-700">৩০ সেপ্টেম্বর ২০২৬, বুধবার • বিকাল ৫:১৫ ঘটিকায়</span>
                 </div>
             </div>
         </div>
@@ -51,7 +76,6 @@
             <!-- Player Cards Container -->
             <div class="space-y-4">
                 
-                <!-- Player Template Start -->
                 <!-- 1. Farhad -->
                 <div class="flex items-center justify-between p-4 rounded-xl border border-slate-100 bg-slate-50/50 hover:bg-slate-50 transition">
                     <div>
@@ -304,7 +328,6 @@
                         <span class="px-3.5 py-1.5 rounded-full text-xs font-semibold bg-amber-100 text-amber-800">অপেক্ষমাণ</span>
                     </div>
                 </div>
-                <!-- Player Template End -->
 
             </div>
         </div>
